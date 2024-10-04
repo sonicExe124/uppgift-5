@@ -1,0 +1,188 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+
+.flexthingy {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-basis: 33%;
+    gap: 0.5rem;
+
+}
+
+.emptyspot {
+    flex:1;
+    flex-basis: 1;
+}
+
+.logo {
+    border-radius: 100%;
+
+    filter: saturate(130%);
+
+    display: flex;
+    object-fit: cover;
+    width: 42px;
+
+    font-style: italic;
+    color: gray;
+
+
+}
+
+main {
+    background-color: darkslategray;
+}
+
+header, footer {
+    background-color: darkcyan;
+    padding-block: 2rem;
+    padding-inline: 1rem;
+    font-weight: 900;
+}
+
+section {
+    background-color: darkslategrey;
+    padding-inline: 3rem;
+    line-height: 1.2;
+
+}
+
+p {
+    color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+.primary-navigation {
+    display: flex;
+    justify-content: left;
+
+
+    gap: 1rem; /*separate*/
+
+    list-style: none;
+    color: white;
+}
+
+a {
+    color: lightcoral ;
+    transition: 150ms ease-in-out;
+    text-underline-offset: 0.4em;
+    text-decoration-color: transparent;
+}
+
+a:visited {
+    color:darkviolet;
+}
+
+a:hover {
+    color:rgb(43, 226, 134);
+    transition: 150ms ease-in-out; 
+    text-underline-offset: 0.4em;
+    text-decoration-color: blue;
+    
+}
+
+a:active {
+    color: rgb(4, 97, 66);
+}
+.columnstyle {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    row-gap: 1rem;
+
+    
+}
+
+.vid {
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+    
+}
+
+.randomshit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    gap: 1rem;
+}   
+
+img {
+    display: block;
+    object-fit: cover;
+    max-width: 140%;
+
+    font-style: italic;
+    color: gray;
+
+    border-radius: 100%;
+
+}
+
+.inlineimg {
+    filter: saturate(100%);
+    border-radius: 1rem;
+
+    display: block;
+    display: block;
+    object-fit: cover;
+    max-width: 140%;
+
+    font-style: italic;
+    color: gray;
+
+    border-radius: 100%;
+
+}
+
+.inlineimg {
+    filter: saturate(100%);
+    border-radius: 1rem;
+
+    display: block;
+    object-fit: cover;
+    max-width: 140%;
+
+    font-style: italic;
+    color: gray;
+
+}
+
+.logo {
+    border-radius: 100%;
+
+    filter: saturate(130%);
+
+    display: block;
+    object-fit: cover;
+    max-width: 100%;
+
+    font-style: italic;
+    color: gray;
+
+    max-width: 140%;
+
+    font-style: italic;
+    color: gray;
+
+}
+
